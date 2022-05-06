@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a670a85-7ab4-4bd8-8bd2-21c77ae55be8" name="Default Changelist" comment="第一次更改代码" />
+    <list default="true" id="7a670a85-7ab4-4bd8-8bd2-21c77ae55be8" name="Default Changelist" comment="第二次修改代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651872291254</updated>
-      <workItem from="1651872294789" duration="1305000" />
+      <workItem from="1651872294789" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="第一次更改代码">
       <created>1651873122331</created>
@@ -59,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651873122331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次修改代码">
+      <created>1651873656209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651873656209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,13 +85,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次更改代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次更改代码" />
+    <MESSAGE value="第二次修改代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次修改代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="337" key="#Notifications" timestamp="1651873456952">
+    <state x="1029" y="337" key="#Notifications" timestamp="1651873856409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="337" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1651873456952" />
+    <state x="1029" y="337" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1651873856409" />
     <state x="940" y="325" key="FileChooserDialogImpl" timestamp="1651873594828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -93,10 +101,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1651873616457" />
-    <state x="862" y="311" width="1016" height="645" key="Vcs.Push.Dialog.v2" timestamp="1651873134922">
+    <state x="492" y="191" width="1016" height="645" key="Vcs.Push.Dialog.v2" timestamp="1651873667217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="862" y="311" width="1016" height="645" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1651873134922" />
+    <state x="492" y="191" width="1016" height="645" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1651873667217" />
     <state x="541" y="164" width="1266" height="834" key="new project wizard" timestamp="1651872554753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
