@@ -1,16 +1,19 @@
 package com.wang.dao;
 
 
-import com.wang.domain.Student;
+import com.wang.model.Student;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class StudentDao {
+@Mapper
+public interface StudentMapper {
 
-    private static List<Student> studentList = new ArrayList();
+    List<Student> getStudentAll();
+
+    /*private static List<Student> studentList = new ArrayList();
 
     static{
             studentList.add(new Student("1","曹操","男"));
@@ -54,5 +57,5 @@ public class StudentDao {
 
     public void deleteStudent(String sid) {
         studentList.remove(selectOne(sid));
-    }
+    }*/
 }

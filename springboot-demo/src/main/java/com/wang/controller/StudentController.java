@@ -1,14 +1,12 @@
 package com.wang.controller;
 
 
-import com.wang.domain.Student;
-import com.wang.service.StudentService;
+import com.wang.model.Student;
+import com.wang.service.StudentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -21,8 +19,8 @@ import java.util.List;
 public class StudentController {
 
     @Autowired
-    private StudentService studentService;
-    @GetMapping("/{sid}")
+    private StudentServiceImpl studentService;
+/*    @GetMapping("/{sid}")
     public String selectOneStudent(Model model,@PathVariable("sid")String sid) {
         try{
             Integer.parseInt(sid);
@@ -33,14 +31,18 @@ public class StudentController {
             return "/NumberFormatException";
         }
         return "/student";
-    }
+    }*/
 
     @GetMapping
     public String selectAll(Model model){
-        List<Student> studentList = studentService.selectAll();
+        List<Student> studentList = studentService.getStudentAll();
         model.addAttribute("studentList", studentList);
-        return "/student";
+        return "student";
     }
 
+/*    @GetMapping("/{student}")
+    public void toUpdate(Student student) {
+
+    }*/
 
 }

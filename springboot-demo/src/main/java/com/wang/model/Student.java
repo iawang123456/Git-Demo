@@ -1,4 +1,4 @@
-package com.wang.domain;
+package com.wang.model;
 
 public class Student {
     private String sid;
