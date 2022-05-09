@@ -2,10 +2,12 @@ package com.wang.dao;
 
 
 import com.wang.domain.Student;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class StudentDao {
 
     private static List<Student> studentList = new ArrayList();
@@ -29,6 +31,28 @@ public class StudentDao {
         if(student != null) {
             return student;
         }
-        return null;
+        return new Student("","","");
+    }
+
+    public List<Student> selectAll() {
+        return studentList;
+    }
+
+    public void toUpdate(Student student) {
+        //student1是从数据库中查出来的结果
+        Student student1 = selectOne(student.getSid());
+        if(student1 != null && student1.getSid().equals(-1)) {
+            student1.setSid(student.getSid());
+            student1.setSname(student.getSname());
+            student1.setSsex(student.getSsex());
+        }
+    }
+
+    public void addStudent(Student student) {
+        studentList.add(student);
+    }
+
+    public void deleteStudent(String sid) {
+        studentList.remove(selectOne(sid));
     }
 }
